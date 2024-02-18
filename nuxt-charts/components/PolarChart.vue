@@ -57,5 +57,6 @@ const chart = ref();
     margin-top: 5rem; 
     background-color: lightgrey;
     width: 50%; 
+    margin: auto; 
 }
 </style>

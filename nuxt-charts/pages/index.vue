@@ -4,4 +4,5 @@
     </div>
     <LineChart />
     <PolarChart />
+    <RadarChart />
   </template>
