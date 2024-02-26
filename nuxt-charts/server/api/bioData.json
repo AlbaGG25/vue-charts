@@ -1,0 +1,226 @@
+[
+   {
+    "heartrate": 80,
+    "delta": 2,
+    "alfa": 9,
+    "beta": 20,
+    "theta": 7
+   },
+   {
+    "heartrate": 92,
+    "delta": 1,
+    "alfa": 10,
+    "beta": 27,
+    "theta": 8
+   },
+   {
+    "heartrate": 100,
+    "delta": 3,
+    "alfa": 11,
+    "beta": 29,
+    "theta": 4
+   },
+   {
+    "heartrate": 120,
+    "delta": 2,
+    "alfa": 13,
+    "beta": 15,
+    "theta": 5
+   },
+   {
+    "heartrate": 80,
+    "delta": 2,
+    "alfa": 9,
+    "beta": 20,
+    "theta": 7
+   },
+   {
+    "heartrate": 92,
+    "delta": 1,
+    "alfa": 10,
+    "beta": 27,
+    "theta": 8
+   },
+   {
+    "heartrate": 100,
+    "delta": 3,
+    "alfa": 11,
+    "beta": 29,
+    "theta": 4
+   },
+   {
+    "heartrate": 120,
+    "delta": 2,
+    "alfa": 13,
+    "beta": 15,
+    "theta": 5
+   },
+   {
+    "heartrate": 80,
+    "delta": 2,
+    "alfa": 9,
+    "beta": 20,
+    "theta": 7
+   },
+   {
+    "heartrate": 92,
+    "delta": 1,
+    "alfa": 10,
+    "beta": 27,
+    "theta": 8
+   },
+   {
+    "heartrate": 100,
+    "delta": 3,
+    "alfa": 11,
+    "beta": 29,
+    "theta": 4
+   },
+   {
+    "heartrate": 120,
+    "delta": 2,
+    "alfa": 13,
+    "beta": 15,
+    "theta": 5
+   },
+   {
+    "heartrate": 80,
+    "delta": 2,
+    "alfa": 9,
+    "beta": 20,
+    "theta": 7
+   },
+   {
+    "heartrate": 92,
+    "delta": 1,
+    "alfa": 10,
+    "beta": 27,
+    "theta": 8
+   },
+   {
+    "heartrate": 100,
+    "delta": 3,
+    "alfa": 11,
+    "beta": 29,
+    "theta": 4
+   },
+   {
+    "heartrate": 120,
+    "delta": 2,
+    "alfa": 13,
+    "beta": 15,
+    "theta": 5
+   },
+   {
+      "heartrate": 80,
+      "delta": 2,
+      "alfa": 9,
+      "beta": 20,
+      "theta": 7
+     },
+     {
+      "heartrate": 92,
+      "delta": 1,
+      "alfa": 10,
+      "beta": 27,
+      "theta": 8
+     },
+     {
+      "heartrate": 100,
+      "delta": 3,
+      "alfa": 11,
+      "beta": 29,
+      "theta": 4
+     },
+     {
+      "heartrate": 120,
+      "delta": 2,
+      "alfa": 13,
+      "beta": 15,
+      "theta": 5
+     },
+     {
+      "heartrate": 80,
+      "delta": 2,
+      "alfa": 9,
+      "beta": 20,
+      "theta": 7
+     },
+     {
+      "heartrate": 92,
+      "delta": 1,
+      "alfa": 10,
+      "beta": 27,
+      "theta": 8
+     },
+     {
+      "heartrate": 100,
+      "delta": 3,
+      "alfa": 11,
+      "beta": 29,
+      "theta": 4
+     },
+     {
+      "heartrate": 120,
+      "delta": 2,
+      "alfa": 13,
+      "beta": 15,
+      "theta": 5
+     },
+     {
+      "heartrate": 80,
+      "delta": 2,
+      "alfa": 9,
+      "beta": 20,
+      "theta": 7
+     },
+     {
+      "heartrate": 92,
+      "delta": 1,
+      "alfa": 10,
+      "beta": 27,
+      "theta": 8
+     },
+     {
+      "heartrate": 110,
+      "delta": 3,
+      "alfa": 11,
+      "beta": 29,
+      "theta": 4
+     },
+     {
+      "heartrate": 130,
+      "delta": 2.8,
+      "alfa": 1,
+      "beta": 15,
+      "theta": 5
+     },
+     {
+      "heartrate": 85,
+      "delta": 2,
+      "alfa": 9,
+      "beta": 20,
+      "theta": 7
+     },
+     {
+      "heartrate": 98,
+      "delta": 2.5,
+      "alfa": 10,
+      "beta": 23,
+      "theta": 8
+     },
+     {
+      "heartrate": 120,
+      "delta": 2,
+      "alfa": 9,
+      "beta": 21,
+      "theta": 4
+     },
+     {
+      "heartrate": 120,
+      "delta": 1.5,
+      "alfa": 10,
+      "beta": 13,
+      "theta": 5
+     }
+]

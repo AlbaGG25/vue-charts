@@ -22,12 +22,12 @@ const chartData = computed(() => {
     label: 'Traits',
     data: [11, 16, 7, 3, 14],
     backgroundColor: [
-      'rgb(255, 99, 132)',
+      'rgb(230, 99, 170)',
       'rgb(75, 192, 192)',
       'rgb(255, 205, 86)',
       'rgb(201, 203, 207)',
       'rgb(54, 162, 235)'
-    ]
+    ],
   }],
   };
 });
@@ -37,12 +37,23 @@ const options = ref({
   plugins: {
     legend: {
       display: false,
+      labels: {
+              color: 'black' // Cambia el color del texto de la leyenda
+            }
     },
   },
   scales: {
     y: {
       beginAtZero: true,
     },
+    r: {
+            grid: {
+              color: 'rgba(150, 90, 250, 0.3)' // Cambia el color de la cuadrícula radial
+            },
+            ticks: {
+              color: 'green' // Cambia el color de las marcas del eje radial
+            }
+          },
   },
 });
 

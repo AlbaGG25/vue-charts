@@ -5,4 +5,5 @@
     <LineChart />
     <PolarChart />
     <RadarChart />
+   
   </template>

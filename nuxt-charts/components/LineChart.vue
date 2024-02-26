@@ -9,9 +9,33 @@
 
 <script setup>
 import { Line } from 'vue-chartjs';
+
+const { data:bioData, refresh } = await useFetch ('/api/dataApi', {
+  transform: (_bioData)=> _bioData.data
+});
+
+const heartrateValues= computed(()=>{
+  return bioData.value.map(item=>item.heartrate);
+});
+
+console.log(heartrateValues.value);
+
 const chartData = computed(() => {
   return {
     labels: [
+      '0',
+      '5',
+      '10',
+      '15',
+      '20',
+      '25',
+      '30',
+      '35',
+      '40',
+      '45',
+      '50',
+      '55',
+      '60',
       '0',
       '5',
       '10',
@@ -29,15 +53,22 @@ const chartData = computed(() => {
     datasets: [
       {
         label: 'Current',
-        data: [53, 50, 65, 67, 63, 70, 68, 65, 71, 66, 59, 61, 64],
-        backgroundColor: ['red', 'blue', 'green'],
+        data: heartrateValues.value,
+        borderColor: 'red',
+      },
+      {
+        label: 'Current',
+        data: heartrateValues.value,
+        borderColor: 'green',
       },
     ],
   };
 });
 
+
 const options = ref({
   responsive: true,
+  
   plugins: {
     legend: {
       display: false,
@@ -48,9 +79,33 @@ const options = ref({
       beginAtZero: true,
     },
   },
-});
+    
+  }
+);
+
+
 
 const chart = ref();
+
+onMounted(() => {
+  setInterval(() => {
+    chart.value.chart.data.datasets[0].data = heartrateValues.value;
+    refresh()
+    chart.value.chart.update();
+  }, 3000);
+       
+});
+
+
+onMounted(() => {
+  setInterval(() => {
+    chart.value.chart.data.datasets[1].data = heartrateValues.value;
+    refresh()
+    chart.value.chart.update();
+  }, 3000);
+       
+});
+
 </script>
 <style>
 .titleLine{

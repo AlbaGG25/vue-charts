@@ -21,22 +21,23 @@ const chartData = computed(() => {
   datasets: [
     {
       label: '1st measure',
-      backgroundColor: 'rgba(179,181,198,0.2)',
+      backgroundColor: 'rgba(179,181,198,0.5)',
       borderColor: 'rgba(179,181,198,1)',
       pointBackgroundColor: 'rgba(179,181,198,1)',
-      pointBorderColor: '#fff',
-      pointHoverBackgroundColor: '#fff',
+    //   pointBorderColor: '#fff',
+    //   pointHoverBackgroundColor: '#fff',
       pointHoverBorderColor: 'rgba(179,181,198,1)',
       data: [65, 59, 90, 81, 56]
+
     },
     {
       label: '2nd measure',
-      backgroundColor: 'rgba(255,99,132,0.2)',
+      backgroundColor: 'rgba(255,99,132,0.5)',
       borderColor: 'rgba(255,99,132,1)',
       pointBackgroundColor: 'rgba(255,99,132,1)',
-      pointBorderColor: '#fff',
-      pointHoverBackgroundColor: '#fff',
-      pointHoverBorderColor: 'rgba(255,99,132,1)',
+    //   pointBorderColor: '#fff',
+    //   pointHoverBackgroundColor: '#fff',
+      //pointHoverBorderColor: 'rgba(255,99,132,1)',
       data: [28, 48, 40, 19, 96]
     }
   ]
@@ -66,7 +67,7 @@ const chart = ref();
 }
 .radarGraph{
     margin-top: 5rem; 
-    background-color: lightgrey;
+    
     width: 50%; 
     margin: auto; 
 }
